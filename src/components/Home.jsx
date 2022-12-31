@@ -1,7 +1,7 @@
 import React from "react";
 import WindowWidth from "./WindowWidth";
 
-const Home = () => {
+const Home = (props) => {
   const [showWidthSize, setShowWidthSize] = React.useState(false);
 
   function showWidth() {
@@ -9,8 +9,8 @@ const Home = () => {
   }
 
   return (
-    <div>
-      <h1 className="text-2xl text-center mt-16">Window Width</h1>
+    <div className={props.darkMode ? "dark" : ""}>
+      <h1 className="text-2xl text-center mt-16 bg-green-500 dark:bg-black dark:text-white border-4">Window Width</h1>
       <p className="text-xl text-center">Check width of any device</p>
 
       <button
