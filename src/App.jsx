@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className='p-10'>
+    <div>
       <Navbar />
       <Home />
     </div>
