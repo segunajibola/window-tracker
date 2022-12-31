@@ -1,5 +1,5 @@
 import React from "react";
-import WindowTracker from "./WindowTracker";
+import WindowWidth from "./WindowWidth";
 
 const Home = () => {
   const [showWidthSize, setShowWidthSize] = React.useState(false);
@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1 className="text-2xl text-center mt-16">Window Tracker</h1>
+      <h1 className="text-2xl text-center mt-16">Window Width</h1>
       <p className="text-xl text-center">Check width of any device</p>
 
       <button
@@ -20,9 +20,11 @@ const Home = () => {
         Check width of this device
       </button>
 
-      {showWidthSize ? <WindowTracker /> : ""}
+      <div className="text-lg text-center mt-6">
+        {showWidthSize ? <WindowWidth /> : "click button to show width"}
+      </div>
     </div>
-  );    
+  );
 };
 
 export default Home;
