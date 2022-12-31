@@ -17,6 +17,6 @@ export default function WindowTracker() {
     }, [])
     
     return (
-        <h1>Window width: {windowWidth}</h1>
+        <h1 className="text-lg text-center mt-6">Window width: {windowWidth}</h1>
     )
 }
