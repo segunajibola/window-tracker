@@ -5,19 +5,21 @@ const Home = (props) => {
   const [showWidthSize, setShowWidthSize] = React.useState(false);
 
   function showWidth() {
-    setShowWidthSize(true);
+    setShowWidthSize(prev => !prev);
   }
 
   return (
-    <div>
-      <h1 className="text-2xl text-center mt-16 bg-green-500 dark:bg-black dark:text-white border-4">Window Width</h1>
-      <p className="text-xl text-center">Check width of any device</p>
+    <div className="dark:bg-gray-800 dark:text-gray-100 h-[90vh] flex flex-col justify-evenly">
+      <div>
+        <h1 className="text-2xl text-center">Window Width</h1>
+        <p className="text-xl text-center">Check width of any device</p>
+      </div>
 
       <button
-        className="rounded-lg p-2.5 mx-auto mt-12 flex bg-gray-500 text-white"
+        className="rounded-lg p-2.5 mx-auto active:inset-1 active:scale-110 transition delay-100 bg-gray-500 text-white"
         onClick={showWidth}
       >
-        Check width of this device
+        {showWidthSize ? "Hide width" :"Check width of this device"}
       </button>
 
       <div className="text-lg text-center mt-6">
