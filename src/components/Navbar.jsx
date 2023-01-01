@@ -5,8 +5,8 @@ import "../navbar.css"
 const Navbar = (props) => {
   return (
     <nav className={`flex justify-between p-5 shadow-md ${props.darkMode ? "dark" : ""} dark:bg-gray-900`}>
-      <h1 className="text-lg font-semibold dark:text-gray-100">Window Width</h1>
-      <FaGithub />
+      <h1 className="text-xl font-semibold dark:text-gray-100">Window Width</h1>
+      <FaGithub className="dark:text-white" size={23}/>
       <div className="toggler">
         <p className="toggler--light">Light</p>
         <div className="toggler--slider" onClick={props.toggleDarkMode}>
