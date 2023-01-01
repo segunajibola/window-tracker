@@ -12,7 +12,7 @@ const Home = (props) => {
     <div className="dark:bg-gray-800 dark:text-gray-100 h-[90vh] flex flex-col justify-evenly text-center">
       <div>
         <h1 className="text-2xl">Window Width</h1>
-        <p className="text-xl">Check width of any device</p>
+        <p className="text-xl">Check width of your device</p>
       </div>
 
       <div className="mx-auto">
@@ -31,7 +31,7 @@ const Home = (props) => {
       <div>
         <p>
           Made with &hearts; by
-          <a href="https://segunajibola.com">Segun Ajibola</a>
+          <a href="https://segunajibola.com"> Segun Ajibola</a>
         </p>
       </div>
     </div>
