@@ -11,7 +11,7 @@ function App() {
   }
 
   return (
-    <div className={props.darkMode ? "dark" : ""}>
+    <div className={darkMode ? "dark" : ""}>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Home toggleDarkMode={toggleDarkMode}/>
     </div>

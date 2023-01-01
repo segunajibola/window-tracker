@@ -9,7 +9,7 @@ const Home = (props) => {
   }
 
   return (
-    <div className={props.darkMode ? "dark" : ""}>
+    <div>
       <h1 className="text-2xl text-center mt-16 bg-green-500 dark:bg-black dark:text-white border-4">Window Width</h1>
       <p className="text-xl text-center">Check width of any device</p>
 
