@@ -3,7 +3,7 @@ import collapsibleData from "./collapsibleData";
 
 const Collapsible = () => {
   return collapsibleData.map((collapsible) => (
-    <div className="bg-slate-100 text-gray-600">
+    <div className="border-4 text-gray-500">
       <div className="container mx-auto py-4 px-4">
         <details className="bg-white shadow rounded group mb-2">
           <summary
