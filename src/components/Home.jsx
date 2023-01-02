@@ -18,7 +18,7 @@ const Home = () => {
   }
 
   return (
-    <div className="dark:bg-gray-800 dark:text-gray-100 py-6 flex flex-col justify-evenly h-auto text-center">
+    <div className="dark:bg-gray-800 dark:text-gray-100 py-6 flex flex-col justify-evenly space-y-10 h-full text-center">
       <div>
         <h1 className="text-2xl">Window Width</h1>
         <p className="text-xl">Check width of your device</p>
