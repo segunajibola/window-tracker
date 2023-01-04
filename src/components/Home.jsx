@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="p-4">
+      {/* <div className="p-4 space-y-1">
         <button
           className="collapsible bg-[#777] cursor-pointer p-[18px] w-full border-none text-left outline-none text-[15px]"
           onClick={collapsible}
@@ -72,7 +72,7 @@ const Home = () => {
             aliquip ex ea commodo consequat.
           </p>
         </div>
-      </div>
+      </div> */}
 
       <Collapsible />
 

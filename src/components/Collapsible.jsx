@@ -3,9 +3,9 @@ import collapsibleData from "./collapsibleData";
 
 const Collapsible = () => {
   return collapsibleData.map((collapsible) => (
-    <div className="bg-slate-100 text-gray-600">
+    <div className="border-2 text-gray-500 w-[80%] mx-auto">
       <div className="container mx-auto py-4 px-4">
-        <details className="bg-white shadow rounded group mb-2">
+        <details className="bg-gray-200 shadow rounded group mb-2">
           <summary
             className="list-none flex flex-wrap items-center cursor-pointer
     focus-visible:outline-none focus-visible:ring focus-visible:ring-pink-500
