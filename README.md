@@ -3,7 +3,7 @@
 <h2>Windowwidth</h2>
 <pA web tool made for developers to know the width of the current device.</p>
 
-![ww](https://user-images.githubusercontent.com/74687658/211075191-d7270198-8a7f-4895-800b-cee50969c1d8.png)
+<img src="https://user-images.githubusercontent.com/74687658/211075191-d7270198-8a7f-4895-800b-cee50969c1d8.png" alt="windowwidth" width="200" height="200"/>
 
 <div style="display: flex;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/segunajibola/windowwidth?style=flat">
