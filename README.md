@@ -3,7 +3,7 @@
 <h2>Windowwidth</h2>
 <pA web tool made for developers to know the width of the current device.</p>
 
-<img src="https://user-images.githubusercontent.com/74687658/198902556-b97725f9-f963-4fef-b9a3-dfec671fa990.png" width="120px">
+![ww](https://user-images.githubusercontent.com/74687658/211075191-d7270198-8a7f-4895-800b-cee50969c1d8.png)
 
 <div style="display: flex;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/segunajibola/windowwidth?style=flat">
@@ -12,8 +12,8 @@
   <img alt="Issues" src="https://img.shields.io/github/issues/segunajibola/windowwidth?style=flat"> </br>
 </div>
 
-![picbot](https://user-images.githubusercontent.com/74687658/198054664-2db23f82-21d5-4a17-9dd3-0f1736b5c17f.png)
-<a href="https://picbot.vercel.app/">View Live</a>
+![windowwidth](https://user-images.githubusercontent.com/74687658/211075323-a9d6b61b-25b4-4a12-ab4e-81a142cc1f6c.png)
+<a href="https://windowwidth.vercel.app/">View Live</a>
 
 ### Built with:
 <table>
@@ -86,17 +86,17 @@ You need to confirm that you have this tools before trying to get it to your loc
 <p align="right"><a href="#top">Go to top</a></p>
 ### 🛠️ Install locally
 
-1. Copy this project to your github account by forking this repo [here](https://github.com/segunajibola/picbot/fork), or by clicking the fork icon in the top right corner of this repo.
+1. Copy this project to your github account by forking this repo [here](https://github.com/segunajibola/windowwidth/fork), or by clicking the fork icon in the top right corner of this repo.
 2. Clone the project to your local code editor, use the following command in your terminal:
 
    ```bash
-   git clone https://github.com/<your-github-username>/picbot
+   git clone https://github.com/<your-github-username>/windowwidth
    ```
 
 3. Navigate to the project directory
 
    ```bash
-   cd picbot
+   cd windowwidth
    ```
 
 4. Install any dependencies with `npm install`
@@ -105,12 +105,10 @@ You need to confirm that you have this tools before trying to get it to your loc
    npm install
    ```
    
-5. Create a `.env` file in the main folder. Create a Pixabay account if you don't have, get your API key. Put `REACT_APP_PIXABAY_API_KEY=put-your-api-key-here` in your `.env` file to configure the `.env` file for this project.
-
-6. Run `npm start` in project root directory using the terminal.
+5. Run `npm run dev` in project root directory using the terminal.
 
    ```bash
-   npm start
+   npm run dev
    ```
    
 <p align="right"><a href="#top">Go to top</a></p>
@@ -119,14 +117,14 @@ You need to confirm that you have this tools before trying to get it to your loc
 
 Contributing makes this project a great way to collaborate on opensource projects. To contribute, follow these steps below.
 
-1. Set up the project locally using the steps above. Step 1 - 6.
+1. Set up the project locally using the steps above. Step 1 - 5.
 
 2. Create a new remote for the upstream repository.
 
 This is to update your local copy with any changes made in my own repo here. Do this by using this command:
 
   ```bash
-   git remote add upstream https://github.com/segunajibola/picbot 
+   git remote add upstream https://github.com/segunajibola/windowwidth 
    ```
 3. Create a new branch.
 
@@ -154,6 +152,7 @@ This will create a new branch, and switch to it.
    git push -u origin my-branch      
    ```
 8. Create a pull request.
+
 After pushing your changes, go to your forked repo on github to open a pull request. Click on the “Compare and Pull Request” button. If everything went well, I will merge your pull request after neccessary checks.
 
 <!-- -For more information about contributing, check out the [contribution guidelines](/CONTRIBUTING.md). -->
@@ -172,10 +171,10 @@ Windowwidth is licensed under the MIT License - see the [LICENSE](LICENSE.md) fi
 
 Thank you for reading this and trying to contribute. 🙏
 
-<!-- [![Contributors](https://contrib.rocks/image?repo=segunajibola/picbot)](https://github.com/segunajibola/picbot/graphs/contributors) -->
+<!-- [![Contributors](https://contrib.rocks/image?repo=segunajibola/windowwidth)](https://github.com/segunajibola/windowwidth/graphs/contributors) -->
 
-<a href="https://github.com/segunajibola/picbot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=segunajibola/picbot" alt="picbot contributors" width="40" height="40"/>
+<a href="https://github.com/segunajibola/windowwidth/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=segunajibola/windowwidth" alt="windowwidth contributors" width="40" height="40"/>
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
